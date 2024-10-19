@@ -1,0 +1,11 @@
+{
+  "name": "birthday",
+  "version": "1.0.0",
+  "description": "Made this as a birthday present for my girlfriend during lockdown. Small attempt for virtual party.",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server ./"
+  },
+  "author": "",
+  "license": "ISC"
+}
