@@ -23,6 +23,8 @@ body {
 	animation:peach_alive linear 8s infinite;
 }
 
+
+
 @-webkit-keyframes peach_alive {
 	0%{
 		background-color: #FFDAB9;
@@ -2076,3 +2078,18 @@ font-family: 'Lobster', cursive;
     opacity: 1;
   }
 }
+
+/* Adjust the banner position */
+#banner {
+    position: absolute;
+    top: 150px; /* Adjust the value as needed to position below the balloons */
+    left: 50%;
+    transform: translateX(-50%); /* Center the banner horizontally */
+    z-index: 100; /* Ensure the banner appears above the balloons */
+}
+
+/* Other elements adjustments */
+.balloon-border {
+    margin-top: 200px; /* Adjust based on banner height */
+}
+
